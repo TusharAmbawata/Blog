@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utlis.css">
+    <link rel="stylesheet" href="blog.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar d-flex space-between">
+            <div class="navbar-brand">Blog</div>
+            <ul class="d-flex">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="write-blog.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <p class="text-center heading">Write Your Own Blog</p>
+            <form>
+                <p class="text">Title</p>
+                <input type="text" class="title m-auto" id="title">
+                <br><br>
+                <p class="text">Write Your Blog Here</p>
+                <textarea class="disc m-auto" id="disc" rows="3"></textarea>
+                <br>
+            </form>
+            
+            <div class="yourblog d-flex column center">
+                <button id="submit" class="btn">Submit</button>
+            </div>
+        </div>
+
+        <div class="box" id="box1">
+            <p class="text-center heading">Blogs</p>
+            <div class="blog1 d-flex">
+                <div class="blog-content">
+                    <p class="bhead text-center"></p>
+                    <p class="content-blog"><a class="read" href="blog.html"><span> Read More</span></a></p>
+                </div>
+                <div class="blog-img d-flex center">
+                    <p class="m-auto ">Image</p>
+                </div>
+            </div>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+<script src="index.js"></script>
+</html>
+

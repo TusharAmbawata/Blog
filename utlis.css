@@ -1,0 +1,50 @@
+.d-flex
+{
+    display: flex;
+}
+
+.space-between
+{
+    justify-content: space-between;
+}
+.m-auto
+{
+    margin: auto;
+}
+
+.text-center
+{
+    text-align: center;
+}
+
+.center
+{
+    align-items: center;
+}
+
+.column
+{
+    flex-direction: column;
+}
+
+.btn
+{
+    background-color: #0d6efd;
+    color: white;
+    border: #0d6efd;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.btn a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.bt{
+    position: relative;
+    left: 500px;
+}
